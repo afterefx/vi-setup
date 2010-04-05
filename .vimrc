@@ -8,6 +8,9 @@ set smartcase "if a search has caps, go case-sensitive
 set shortmess+=I "Disable :intro
 set textwidth=80 "setting text width to 80 characters
 set cindent
+set expandtab
+set tabstop=4
+set shiftwidth=4
 
 
 """"""""""""""""""""""""
