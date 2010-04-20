@@ -1,9 +1,9 @@
 syntax enable "enable syntax coloring
 filetype on " detect the filetype
 filetype plugin on " load filetype plugins
-set nowrap " don't wrap long lines artificially on screen
 syn region myFold start="{" end="}" transparent fold
 syn sync fromstart "redraw whole document or something like that
+set linebreak "don't break in middle of word
 set foldmethod=syntax "enable folding
 set nonumber! "enable line numbering
 set ignorecase "case insensitive search by default
