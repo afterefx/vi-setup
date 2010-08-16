@@ -16,6 +16,7 @@ set ch=2 "make command line 2 lines high
 set stl=%f\ %m\ %r\ Line:%l/%L[%p%%]\ Col:%c\ Buf:%n\ [%b][0x%B]
 set laststatus=2 "always display status line in
 set lazyredraw "dont' update display during execution of macros
+match Todo /\s\+$/
 
 "work with whitespace
 set expandtab " turn tabs into spaces
