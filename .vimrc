@@ -27,6 +27,9 @@ set listchars=tab:>.,eol:\$ " change the way tab and eol are displayed
 """"""""""""""""""""""""""""""""""""""""
 "======== TRIAL STUFF ==================
 """"""""""""""""""""""""""""""""""""""""
+if &t_Co == 256
+    colorscheme darkspectrum
+endif
 
 """"""""""""""""""""""""
 " Setting split window "
