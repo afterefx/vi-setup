@@ -14,7 +14,7 @@ set textwidth=80 "setting text width to 80 characters
 set cindent "enables automatic c indent style
 set wildmenu "turns on menu completion
 set ch=1 "make command line 2 lines high
-set stl=%f\ %m\ %r\ Line:%l/%L[%p%%]\ Col:%c\ Buf:%n\ [%b][0x%B]
+set statusline=%f\ %m\ %r\ Line:%l/%L[%p%%]\ Col:%c\ Buf:%n\ [TYPE=%Y\ %{&ff}]\ [%b][0x%B]
 set laststatus=2 "always display status line in
 set lazyredraw "dont' update display during execution of macros
 match Todo /\s\+$/
